@@ -11,9 +11,17 @@
 </head>
 <body>
     <h1 class="heading">Hi! I am Titan</h1>
-    <p class="upper">
-        " I'm a  "
-        <span class="typing"></span>
+    <p class="upper">I'm a <span class="typing"></span>
     </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["Web Developer", "Python Programmer", "Gamer"],
+            typeSpeed: 80,
+            backSpeed: 30,
+            loop: true
+        })
+    </script>
 </body>
 </html>
