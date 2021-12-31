@@ -13,3 +13,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#particles-js{
+    height: 100%;
+    background: black;
+}
