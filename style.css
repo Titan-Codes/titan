@@ -6,10 +6,6 @@ body{
     text-align: center;
 }
 
-.heading{
-    font-family: verdana;
-}
-
 .upper{
     font-size: 20px;
     font-family: 'Alata', sans-serif;
@@ -33,12 +29,13 @@ body{
 .heading{
     color: rgb(222, 220, 217);
     font-family: 'Alata', sans-serif;
+    font-size: 50px;
 }
 
 .heading:hover{
     cursor: pointer;
     color: #abff9a;
-    font-size: 37px;
+    font-size: 60px;
     font-family: 'Alata', sans-serif;
     transition-duration: 0.2s;
 }
