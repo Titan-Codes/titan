@@ -20,6 +20,15 @@ body{
     background: black;
 }
 
+.header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
+}
+
 
 .heading{
     color: rgb(222, 220, 217);
