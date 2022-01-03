@@ -9,6 +9,7 @@ body{
 .upper{
     font-size: 20px;
     font-family: 'Alata', sans-serif;
+    color: gray;
 }
 
 #particles-js{
