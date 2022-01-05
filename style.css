@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+html::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(192, 192, 83);
+}
+
+html::-webkit-scrollbar-track{
+    background-color: grey;
+}
+
 body{
     background-color: black;
     color: white;
     text-align: center;
 }
+
 
 .upper{
     font-size: 20px;
@@ -30,45 +47,46 @@ body{
 .heading{
     color: rgb(222, 220, 217);
     font-family: 'Alata', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .heading:hover{
     cursor: pointer;
-    color: #abff9a;
+    color: #00ffbf;
     font-size: 60px;
+    transform: translateX(-15px);
     font-family: 'Alata', sans-serif;
     transition-duration: 0.2s;
 }
 
 .gh{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     padding-right: 10px;
 }
 
 .dsc{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     padding-right: 10px;
 }
 
 .yt{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     padding-right: 10px;
 }
 
 .email{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     padding-right: 10px;
 }
 
 .fa-discord:hover{
 
     color: grey;
-    font-size: 28px;
+    transform: translateY(-5px);
     transition-duration: 0.1s;
 
 }
@@ -76,7 +94,7 @@ body{
 .fa-github:hover{
 
     color: grey;
-    font-size: 28px;
+    transform: translateY(-5px);
     transition-duration: 0.1s;
 
 }
@@ -84,7 +102,7 @@ body{
 .fa-youtube:hover{
 
     color: grey;
-    font-size: 28px;
+    transform: translateY(-5px);
     transition-duration: 0.1s;
 
 }
@@ -92,7 +110,7 @@ body{
 .fa-envelope:hover{
 
     color: grey;
-    font-size: 28px;
+    transform: translateY(-5px);
     transition-duration: 0.1s;
 
 }
