@@ -40,3 +40,59 @@ body{
     font-family: 'Alata', sans-serif;
     transition-duration: 0.2s;
 }
+
+.gh{
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.dsc{
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.yt{
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.email{
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.fa-discord:hover{
+
+    color: grey;
+    font-size: 28px;
+    transition-duration: 0.1s;
+
+}
+
+.fa-github:hover{
+
+    color: grey;
+    font-size: 28px;
+    transition-duration: 0.1s;
+
+}
+
+.fa-youtube:hover{
+
+    color: grey;
+    font-size: 28px;
+    transition-duration: 0.1s;
+
+}
+
+.fa-envelope:hover{
+
+    color: grey;
+    font-size: 28px;
+    transition-duration: 0.1s;
+
+}
