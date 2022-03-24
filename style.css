@@ -19,8 +19,10 @@ html::-webkit-scrollbar-track{
 body{
     background-color: black;
     color: white;
+    font-family: 'Alata', sans-serif;
     text-align: center;
 }
+
 
 
 .upper{
@@ -48,6 +50,7 @@ body{
     color: rgb(222, 220, 217);
     font-family: 'Alata', sans-serif;
     font-size: 60px;
+    display: inline-block;
 }
 
 .heading:hover{
@@ -114,4 +117,9 @@ body{
     transform: translateY(-5px);
     transition-duration: 0.1s;
 
+}
+
+.me{
+    font-size: 50px;
+    display: inline-block;
 }
