@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
-body {
+.heading {
     font-family: 'Caveat', cursive;
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
+    transition: linear;
+    transition-duration: 60ms;
+}
+
+
+.heading:hover{
+    font-size: 5.5rem;
+    cursor: pointer;
+    transition: linear;
+    transition-duration: 60ms;
 }
