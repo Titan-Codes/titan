@@ -6,3 +6,5 @@ function App(){
         <Heading />
     )
 }
+
+export default App;
