@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-html::-webkit-scrollbar{
-    width: 10px;
-}
-
-html::-webkit-scrollbar-thumb{
-    background-color: gray;
-}
-
-html::-webkit-scrollbar-thumb:hover{
-    background-color: rgb(192, 192, 83);
-}
-
-html::-webkit-scrollbar-track{
-    background-color: grey;
-}
-
 body{
     background-color: black;
     color: white;
@@ -29,11 +13,6 @@ body{
     font-size: 20px;
     font-family: 'Alata', sans-serif;
     color: gray;
-}
-
-#particles-js{
-    height: 100%;
-    background: black;
 }
 
 .header{
@@ -55,7 +34,7 @@ body{
 
 .heading:hover{
     cursor: pointer;
-    color: #00ffbf;
+    color: #0295af;
     font-size: 60px;
     transform: translateX(-15px);
     font-family: 'Alata', sans-serif;
@@ -64,25 +43,25 @@ body{
 }
 
 .gh{
-    color: white;
+    color: grey;
     font-size: 30px;
     padding-right: 10px;
 }
 
 .dsc{
-    color: white;
+    color: grey;
     font-size: 30px;
     padding-right: 10px;
 }
 
 .yt{
-    color: white;
+    color: grey;
     font-size: 30px;
     padding-right: 10px;
 }
 
 .email{
-    color: white;
+    color: grey;
     font-size: 30px;
     padding-right: 10px;
 }
@@ -117,9 +96,4 @@ body{
     transform: translateY(-5px);
     transition-duration: 0.1s;
 
-}
-
-.me{
-    font-size: 50px;
-    display: inline-block;
 }
