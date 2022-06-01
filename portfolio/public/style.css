@@ -25,6 +25,7 @@ body {
 
 
 /* First Section code */
+
 .heading {
     font-family: 'Caveat', cursive;
     text-align: center;
@@ -35,10 +36,37 @@ body {
 }
 
 .heading:hover{
+    color: grey;
     cursor: pointer;
     transform: translateX(-15px);
     transition: linear;
     transition-duration: 60ms;
+}
+
+.icons {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.icon {
+    padding: 15px;
+    color: white;
+    font-size: 41px;
+    transition: linear;
+    transition-duration: 1s;
+}
+
+.socials{
+    color: white;
+    transition: linear;
+    transition-duration: 0.1s;   
+}
+
+.socials:hover{
+    color: grey;
+    transform: translateY(-6px);
+    transition: linear;
+    transition-duration: 0.1s;
 }
 
 /* Second Section code */
