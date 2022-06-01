@@ -2,9 +2,9 @@ import React from "react";
 
 function Heading(){
     return (
-        <div className="first-section">
+        <section className="first-section">
             <h1 className="heading">Hello, I'm TITAN</h1>
-        </div>
+        </section>
     )
 }
 
