@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
+
+.first-section {
+    align-items: center;
+    justify-content: center;
+}
+
 .heading {
     font-family: 'Caveat', cursive;
     text-align: center;
@@ -12,6 +18,7 @@
 .heading:hover{
     font-size: 5.5rem;
     cursor: pointer;
+    transform: translateY(-15px);
     transition: linear;
     transition-duration: 60ms;
 }
