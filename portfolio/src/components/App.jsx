@@ -1,9 +1,13 @@
 import React from "react";
 import Heading from './Heading'
+import About from './About'
 
 function App(){
     return (
-        <Heading />
+        <div>
+            <Heading />
+            <About />
+        </div>
     )
 }
 
