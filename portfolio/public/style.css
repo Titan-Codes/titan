@@ -32,7 +32,7 @@ body {
     font-size: 5rem;
     transition: linear;
     display: inline-block;
-    transition-duration: 60ms;
+    transition-duration: 90ms;
 }
 
 .heading:hover{
@@ -40,7 +40,7 @@ body {
     cursor: pointer;
     transform: translateX(-15px);
     transition: linear;
-    transition-duration: 60ms;
+    transition-duration: 90ms;
 }
 
 .icons {
