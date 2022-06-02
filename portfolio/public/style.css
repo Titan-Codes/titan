@@ -82,3 +82,23 @@ body {
     margin: 10px 10px;
     font-size: 3rem;
 }
+
+@media only screen and (max-width: 600px){
+    .heading {
+        font-size: 40px;
+        padding-left: 0px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .icon {
+        padding-right: 10px;
+        padding-left: 0;
+        margin-left: 0;
+        /* margin-right: 15px; */
+    }
+
+    .socials {
+        font-size: 30px;
+    }
+}
