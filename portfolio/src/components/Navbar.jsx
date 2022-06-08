@@ -46,7 +46,7 @@ function Navbar(){
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
+          <a class="button is-outlined is-rounded">
             <strong>Say Hello</strong>
           </a>
         </div>

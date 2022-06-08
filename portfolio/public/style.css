@@ -6,3 +6,14 @@ body {
     color: black;
     background-color: white;
 }
+
+.button {
+    border: solid 1px rgb(111, 20, 175);
+    transition-duration: 0.50s;
+}
+
+.button:hover {
+    background-color: rgb(111, 20, 175);
+    color: white;
+    transition-duration: 0.20s;
+}
