@@ -5,8 +5,8 @@ function Navbar(){
     return (
         <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-        Vedansh
+    <a class="navbar-item" href="#">
+        <span style={{color: "rgb(111, 20, 175)"}}>TITAN</span>
       {/* <img className="logo" src={imageUrl} width="112" height="28" /> */}
     </a>
 
@@ -20,24 +20,24 @@ function Navbar(){
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item">
-        Home
+        <span className="navbar-text">Home</span>
       </a>
 
       <a class="navbar-item">
-        About
+        <span className="navbar-text">About</span>
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          More
+        <span className="navbar-text">More</span>
         </a>
 
         <div class="navbar-dropdown">
           <a class="navbar-item">
-          Projects
+          <span className="navbar-text">Projects</span>
           </a>
           <a class="navbar-item">
-            Skills
+          <span className="navbar-text">Skills</span>
           </a>
         </div>
       </div>

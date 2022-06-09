@@ -17,3 +17,7 @@ body {
     color: white;
     transition-duration: 0.20s;
 }
+
+.navbar-text:hover {
+    color: rgb(111, 20, 175);
+}
