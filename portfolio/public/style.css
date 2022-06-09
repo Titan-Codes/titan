@@ -8,6 +8,7 @@ body {
 }
 
 .button {
+    color: rgb(111, 20, 175);
     border: solid 1px rgb(111, 20, 175);
     transition-duration: 0.50s;
 }
