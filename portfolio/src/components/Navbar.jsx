@@ -1,16 +1,12 @@
 import React from "react";
 
 function Navbar() {
-  const burger = document.querySelector("#burger")
   const navbarMenu = document.querySelector("#navbar-links")
 
   function burgerClick(){
     navbarMenu.classList.toggle("is-active");
   }
 
-  // document.querySelector("#burger").addEventListener("click", () => {
-  //   document.querySelector("#navbar-links").classList.toggle("is-active")
-  // })
   const imageUrl = "https://cdn.discordapp.com/attachments/743817386792058971/984121645352517702/myAvatarCircle.png";
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -19,7 +15,7 @@ function Navbar() {
           <span style={{ color: "rgb(111, 20, 175)" }}>TITAN</span>
         </a>
 
-        <a onClick={burgerClick} id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a onClick={burgerClick()} id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
