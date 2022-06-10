@@ -5,6 +5,34 @@
 body {
     color: black;
     background-color: white;
+    transition-duration: 1s;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    transition-duration: 1s;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    transition-duration: 1s;
+
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    font-size: 24px;
+    display: none;
+    user-select: none;
+}
+
+.items {
+    padding: 20px;
 }
 
 .button {
@@ -21,4 +49,42 @@ body {
 
 .navbar-text:hover {
     color: rgb(111, 20, 175);
+}
+
+@media (max-width: 768px) {
+    .menu { 
+     display:none;
+     position: absolute;
+     background-color: white;
+     right: 0;
+     left: 0;
+     text-align: center;
+     padding: 16px 0;
+     transition-duration: 1s;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        transition-duration: 1s;
+       }
+    
+    .menu li + li {
+        margin-top: 12px;
+        transition-duration: 1s;
+       }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+        transition-duration: 1s;
+    }
+    
+    li {
+        transition-duration: 1s;
+    }
+    .hamburger {
+        display: block;
+        margin-left: 20px;
+        padding: 14px;
+        transition-duration: 1s;
+       }
 }
