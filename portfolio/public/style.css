@@ -8,6 +8,14 @@ body {
     transition-duration: 1s;
 }
 
+.hero {
+    text-align: center;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
 nav {
     align-items: center;
     justify-content: space-between;
