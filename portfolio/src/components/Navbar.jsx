@@ -1,7 +1,6 @@
 import React from "react";
 
 function Navbar() {
-  const imageUrl = "https://cdn.discordapp.com/attachments/743817386792058971/984121645352517702/myAvatarCircle.png";
 
   const checkbox = document.querySelector("input[name=checkbox]");
   const items = document.querySelector(".items");
@@ -19,10 +18,11 @@ function Navbar() {
           <span className="bar"></span>
         </label>
         <div id="dropdown" className="menu">
-          <li><a href="#home" className="items navbar-text">Home</a></li>
-          <li><a href="#" className="items navbar-text">About</a></li>
-          <li><a href="#" className="items navbar-text">Skills</a></li>
-          <li><a href="#" className="items navbar-text">Projects</a></li>
+          <li><a href="#home" className="items links navbar-text">Home</a></li>
+          <li><a href="#" className="items links navbar-text">About</a></li>
+          <li><a href="#" className="items links navbar-text">Skills</a></li>
+          <li><a href="#" className="items links navbar-text">Projects</a></li>
+          <button className="button is-rounded">Say Hello</button>
         </div>
       </ul>
     </nav>

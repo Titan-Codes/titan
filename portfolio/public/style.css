@@ -37,6 +37,10 @@ input[type=checkbox] {
     display: none;
 }
 
+.links {
+    padding-top: 10px;
+}
+
 .bar {
     display: block;
     width: 25px;
@@ -87,6 +91,7 @@ input[type=checkbox] {
 
 .home-text {
     text-align: center;
+    padding-bottom: 20px;
     padding-top: 30px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -99,6 +104,15 @@ input[type=checkbox] {
 
 .home-section {
     padding-top: 32px;
+}
+
+.avatar {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Media queries */
