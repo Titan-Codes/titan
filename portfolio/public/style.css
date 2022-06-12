@@ -12,9 +12,19 @@ body {
 
 /* Scrollbar */
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;   
+  }
+  
+  body::-webkit-scrollbar-thumb {
     background-color: rgb(111, 20, 175);
-}
+    border-radius: 20px;
+    border: 0.1px solid white;
+  }
 
 /* Navbar code */
 
