@@ -151,6 +151,9 @@ input[type=checkbox] {
         padding: 14px;
     }
 
+    .navbar-text {
+        padding: 0;
+    }
     .navbar-text:hover {
         color: black;
     }
@@ -164,6 +167,10 @@ input[type=checkbox] {
         padding-top: 32px;
         text-align: center;
         font-size: 32px;
+    }
+
+    .button {
+        pa
     }
     
 }

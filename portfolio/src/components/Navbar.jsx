@@ -22,6 +22,7 @@ function Navbar() {
           <li><a href="#" className="items links navbar-text">About</a></li>
           <li><a href="#" className="items links navbar-text">Skills</a></li>
           <li><a href="#" className="items links navbar-text">Projects</a></li>
+          <hr />
           <button className="button is-rounded">Say Hello</button>
         </div>
       </ul>
