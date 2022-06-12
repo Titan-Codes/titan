@@ -29,7 +29,6 @@ nav {
 
 .menu {
     display: flex;
-    gap: 1em;
     transition-duration: 1s;
 }
 
@@ -72,6 +71,8 @@ input[type=checkbox] {
     color: rgb(111, 20, 175);
     border: solid 1px rgb(111, 20, 175);
     transition-duration: 0.50s;
+    margin-top: -9px;
+    margin-right: 25px;
 }
 
 .button:hover {
@@ -167,10 +168,6 @@ input[type=checkbox] {
         padding-top: 32px;
         text-align: center;
         font-size: 32px;
-    }
-
-    .button {
-        pa
     }
     
 }
