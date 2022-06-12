@@ -10,6 +10,12 @@ body {
     transition-duration: 1s;
 }
 
+/* Scrollbar */
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(111, 20, 175);
+}
+
 /* Navbar code */
 
 .logo {
