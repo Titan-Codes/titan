@@ -121,6 +121,37 @@ input[type=checkbox] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
+}
+
+/* About section */
+
+.about {
+    height: 50vh;
+    background-color: rgb(111, 20, 175);
+    text-align: center;
+}
+
+.about-heading {
+    padding-top: 32px;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.text-container {
+    padding: 20px 100px 0 100px;
+}
+
+.about-text {
+    color: white;
+    padding: 0 100px 0 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.about-section {
+    padding-top: 32px;
 }
 
 /* Media queries */
@@ -181,4 +212,27 @@ input[type=checkbox] {
         margin-right: 0;
     }
     
+    .about {
+        height: 100vh;
+        background-color: rgb(111, 20, 175);
+        text-align: center;
+    }
+
+    .about-heading {
+        padding: 32px 10px 0 10px;
+        font-family: 'Russo One', sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+
+    .text-container {
+        padding: 0;
+    }
+
+    .about-text {
+        color: white;
+        padding: 20px 10px 0 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
 }
