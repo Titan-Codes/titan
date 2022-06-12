@@ -2,9 +2,6 @@ import React from "react";
 
 function Navbar() {
 
-  const checkbox = document.querySelector("input[name=checkbox]");
-  const items = document.querySelector(".items");
-
   return (
     <nav className="navbar">
       <div className="logo navbar-brand navbar-text" style={{color: "black"}}>
