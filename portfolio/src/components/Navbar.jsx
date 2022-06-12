@@ -18,11 +18,11 @@ function Navbar() {
           <span className="bar"></span>
           <span className="bar"></span>
         </label>
-        <div className="menu">
-          <li><a className="items navbar-text">Home</a></li>
-          <li><a className="items navbar-text">About</a></li>
-          <li><a className="items navbar-text">Skills</a></li>
-          <li><a className="items navbar-text">Projects</a></li>
+        <div id="dropdown" className="menu">
+          <li><a href="#home" className="items navbar-text">Home</a></li>
+          <li><a href="#" className="items navbar-text">About</a></li>
+          <li><a href="#" className="items navbar-text">Skills</a></li>
+          <li><a href="#" className="items navbar-text">Projects</a></li>
         </div>
       </ul>
     </nav>

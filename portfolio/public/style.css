@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 body {
     color: black;
@@ -8,9 +9,7 @@ body {
     transition-duration: 1s;
 }
 
-.hero {
-    text-align: center;
-}
+/* Navbar code */
 
 .logo {
     margin-left: 10px;
@@ -58,6 +57,12 @@ input[type=checkbox] {
     padding: 20px;
 }
 
+.navbar-text:hover {
+    color: rgb(111, 20, 175);
+}
+
+/* buttons */
+
 .button {
     color: rgb(111, 20, 175);
     border: solid 1px rgb(111, 20, 175);
@@ -70,9 +75,24 @@ input[type=checkbox] {
     transition-duration: 0.20s;
 }
 
-.navbar-text:hover {
-    color: rgb(111, 20, 175);
+/* Home section code */
+
+.home-heading {
+    font-family: 'Russo One', sans-serif;
+    padding-top: 32px;
+    text-align: center;
+    font-size: 32px;
 }
+
+.home {
+    padding-top: 32px;
+}
+
+.home-section {
+    padding-top: 32px;
+}
+
+/* Media queries */
 
 @media (max-width: 768px) {
     .menu { 
@@ -83,7 +103,7 @@ input[type=checkbox] {
      background-color: rgb(111, 20, 175);
      text-align: center;
      padding: 16px 0;
-     transition-duration: 1s;
+     height: 100vh;
     }
 
     .items {
@@ -106,6 +126,14 @@ input[type=checkbox] {
         display: block;
         margin-left: 20px;
         padding: 14px;
-       }
+    }
+
+    .navbar-text:hover {
+        color: black;
+    }
+
+    #dropdown {
+        transition-duration: 1s;
+    }
     
 }
