@@ -180,6 +180,7 @@ input[type=checkbox] {
 
     .items {
         color: white;
+        font-size: 20px;
     }
 
     .menu li:hover {
