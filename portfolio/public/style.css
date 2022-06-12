@@ -14,23 +14,38 @@ body {
 
 .logo {
     margin-left: 10px;
+    padding-top: 0;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 nav {
     align-items: center;
+    margin-top: 10px;
     justify-content: space-between;
-    transition-duration: 1s;
 }
 
 .menu {
     display: flex;
     gap: 1em;
     transition-duration: 1s;
-
 }
 
 input[type=checkbox] {
     display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    padding-bottom: 0;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 .hamburger {
@@ -63,36 +78,34 @@ input[type=checkbox] {
     .menu { 
      display:none;
      position: absolute;
-     background-color: white;
      right: 0;
      left: 0;
+     background-color: rgb(111, 20, 175);
      text-align: center;
      padding: 16px 0;
      transition-duration: 1s;
     }
 
+    .items {
+        color: white;
+    }
+
     .menu li:hover {
         display: inline-block;
-        transition-duration: 1s;
        }
     
     .menu li + li {
         margin-top: 12px;
-        transition-duration: 1s;
        }
 
     input[type=checkbox]:checked ~ .menu{
         display: block;
-        transition-duration: 1s;
     }
     
-    li {
-        transition-duration: 1s;
-    }
     .hamburger {
         display: block;
         margin-left: 20px;
         padding: 14px;
-        transition-duration: 1s;
        }
+    
 }
