@@ -38,6 +38,7 @@ input[type=checkbox] {
 
 .links {
     padding-top: 10px;
+    transition-duration: 0.5s;
 }
 
 .bar {
