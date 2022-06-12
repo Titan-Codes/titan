@@ -18,10 +18,10 @@ function Navbar() {
           <span className="bar"></span>
         </label>
         <div id="dropdown" className="menu">
-          <li><a href="#home" className="items links navbar-text">Home</a></li>
-          <li><a href="#about" className="items links navbar-text">About</a></li>
-          <li><a href="#skills" className="items links navbar-text">Skills</a></li>
-          <li><a href="#projects" className="items links navbar-text">Projects</a></li>
+          <li><a href="#home" className="items links navbar-text" onClick={() => {document.querySelector("#checkbox_toggle").click()}}>Home</a></li>
+          <li><a href="#about" className="items links navbar-text" onClick={() => {document.querySelector("#checkbox_toggle").click()}}>About</a></li>
+          <li><a href="#skills" className="items links navbar-text" onClick={() => {document.querySelector("#checkbox_toggle").click()}}>Skills</a></li>
+          <li><a href="#projects" className="items links navbar-text" onClick={() => {document.querySelector("#checkbox_toggle").click()}}>Projects</a></li>
           <hr />
           <button className="button is-rounded">Say Hello</button>
         </div>
