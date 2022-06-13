@@ -158,10 +158,56 @@ input[type=checkbox] {
     padding: 0 100px 0 100px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .about-section {
     padding-top: 32px;
+}
+
+/* Skills section */
+
+.skills {
+    height: 100vh;
+}
+
+.skills-heading {
+    padding-top: 30px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.skills-text {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.progress-container {
+    padding: 32px 25% 0 25%;
+}
+
+.progress {
+    width: 50%;
+    background-color: grey;
+}
+
+.progress-bar {
+    width: 50%;
+    background-color: rgb(111, 20, 175);
+    display: list-item;
+}
+
+.progress-text {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.langs {
+    padding-bottom: 2px;
 }
 
 /* Media queries */
@@ -245,5 +291,14 @@ input[type=checkbox] {
         padding: 20px 10px 0 10px;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
+    }
+
+    .progress {
+        width: 90%;
+        background-color: grey;
+    }
+
+    .progress-container {
+        padding: 20px 0 0 10%;
     }
 }
