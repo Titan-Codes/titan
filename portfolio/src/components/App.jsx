@@ -14,7 +14,6 @@ function App(){
             <div className="copyright">
                 <hr />
                 <p>Copyright @<a href="https://github.com/Titan-Codes" target="_blank">TITAN</a></p>
-                <p className="contrib">Contributer @<a href="https://github.com/MustafaTheCoder" target="_blank">MustafaXD</a></p>
                 
             </div>
         </div>

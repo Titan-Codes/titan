@@ -226,12 +226,9 @@ input[type=checkbox] {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    /* padding-bottom: 2%; */
-}
-
-.copyright p.contrib {
     padding-bottom: 2%;
 }
+
 
 .copyright hr{
     background-color: black;
