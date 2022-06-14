@@ -214,9 +214,40 @@ input[type=checkbox] {
     padding-bottom: 2px;
 }
 
+.home .home-section h1.home-heading span{
+    text-decoration: underline;
+}
+
+.about .about-section .about-heading span{
+    text-decoration: underline;
+}
+
+.copyright p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 2%; */
+}
+
+.copyright p.contrib {
+    padding-bottom: 2%;
+}
+
+.copyright hr{
+    background-color: black;
+}
+
 /* Media queries */
 
 @media (max-width: 768px) {
+    .home .home-section h1.home-heading{
+        font-size: 17px;
+    }
+
+    .home .home-text{
+        font-size: 17px;
+    }
+
     .menu { 
      display:none;
      position: absolute;
