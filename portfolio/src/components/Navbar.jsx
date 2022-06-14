@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo navbar-brand navbar-text" style={{color: "black"}}>
-        TITAN
+        TITAN | PORTFOLIO
       </div>
       <ul className="navlinks">
         <input type="checkbox" id="checkbox_toggle" />
@@ -20,7 +20,7 @@ function Navbar() {
           <li><a href="#skills" className="items links navbar-text" onClick={() => {document.querySelector("#checkbox_toggle").click()}}>Skills</a></li>
           <li><a href="#projects" className="items links navbar-text" onClick={() => {document.querySelector("#checkbox_toggle").click()}}>Projects</a></li>
           <hr />
-          <button className="button is-rounded">Say Hello</button>
+          <button className="button is-rounded">Say Hello!</button>
         </div>
       </ul>
     </nav>
