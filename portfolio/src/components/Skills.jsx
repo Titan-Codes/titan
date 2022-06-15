@@ -13,9 +13,9 @@ function Skills() {
             <Progressbar width="90%" lang="JavaScript:" />
             <Progressbar width="70%" lang="Bootstrap:" />
             <Progressbar width="90%" lang="jQuery:" />
-            <Progressbar width="90%" lang="Node.js" />
-            <Progressbar width="85%" lang="Express.js" />
-            <Progressbar width="80%" lang="React.js" />
+            <Progressbar width="90%" lang="NodeJS:" />
+            <Progressbar width="85%" lang="ExpressJS:" />
+            <Progressbar width="80%" lang="ReactJS:" />
             </div>
         </section>
     )
