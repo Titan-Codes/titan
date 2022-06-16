@@ -133,6 +133,12 @@ input[type=checkbox] {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    transition: 0.5s;
+}
+
+.avatar:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
 }
 
 /* About section */

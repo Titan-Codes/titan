@@ -5,6 +5,7 @@ import About from "./About";
 import Skills from "./Skills";
 
 function App(){
+    const year = new Date().getFullYear()
     return (
         <div>
             <Navbar />
@@ -13,7 +14,7 @@ function App(){
             <Skills />
             <div className="copyright">
                 <hr />
-                <p>Copyright @<a href="https://github.com/Titan-Codes" target="_blank">TITAN</a></p>
+                <p>Copyright {year} @<a href="https://github.com/Titan-Codes" target="_blank">TITAN</a></p>
                 
             </div>
         </div>
