@@ -11,6 +11,10 @@ body {
     transition-duration: 1s;
 }
 
+.image-link {
+    display: contents;
+}
+
 /* Scrollbar */
 
 body::-webkit-scrollbar {
@@ -179,7 +183,7 @@ input[type=checkbox] {
 /* Skills section */
 
 .skills {
-    height: 110vh;
+    height: 150vh;
 }
 
 .skills-heading {
@@ -191,10 +195,27 @@ input[type=checkbox] {
 
 .skills-text {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+.skills-text:hover {
+    color: rgb(111, 20, 175);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icon-item {
+    transition: 0.3s;
+}
+
+.icon-item:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .progress-container {
@@ -227,6 +248,28 @@ input[type=checkbox] {
 
 .about .about-section .about-heading span{
     text-decoration: underline;
+}
+
+/* Skills section */
+
+.tech-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(111, 20, 175);
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    font-size: 500%;
 }
 
 .copyright p {
@@ -330,6 +373,11 @@ input[type=checkbox] {
         padding: 20px 10px 0 10px;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
+    }
+
+    .skills {
+        height: 120vh;
+        padding-bottom: 10px;
     }
 
     .progress {

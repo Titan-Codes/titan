@@ -12,11 +12,11 @@ function App(){
             <Home />
             <About />
             <Skills />
-            <div className="copyright">
+            {/* <div className="copyright">
                 <hr />
                 <p>Copyright {year} @<a href="https://github.com/Titan-Codes" target="_blank">TITAN</a></p>
                 
-            </div>
+            </div> */}
         </div>
     )
 }
