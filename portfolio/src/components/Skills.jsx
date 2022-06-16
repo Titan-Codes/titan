@@ -37,14 +37,4 @@ function Skills() {
     )
 }
 
-{/* <Progressbar width="60%" lang="Python:" />
-<Progressbar width="95%" lang="HTML:" />
-<Progressbar width="85%" lang="CSS:" />
-<Progressbar width="90%" lang="JavaScript:" />
-<Progressbar width="70%" lang="Bootstrap:" />
-<Progressbar width="90%" lang="jQuery:" />
-<Progressbar width="90%" lang="NodeJS:" />
-<Progressbar width="85%" lang="ExpressJS:" />
-<Progressbar width="80%" lang="ReactJS:" /> */}
-
 export default Skills;
