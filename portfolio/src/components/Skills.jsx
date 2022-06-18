@@ -13,6 +13,7 @@ function Skills() {
                     <Icon class="devicon-html5-plain-wordmark" />
                     <Icon class="devicon-css3-plain-wordmark" />
                     <Icon class="devicon-javascript-plain" />
+                    <Icon class="devicon-typescript-plain" />
                 </ul>
                 <p className="skills-text">Frameworks & Dbs</p>
                 <ul className="tech-icons">
