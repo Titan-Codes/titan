@@ -19,11 +19,13 @@ function Skills() {
                 <ul className="tech-icons">
                     <Icon class="devicon-express-original-wordmark" />
                     <Icon class="fa-brands fa-react" />
+                    <Icon class="devicon-nextjs-original-wordmark" />
                     <Icon class="devicon-mongodb-plain-wordmark" />
                     <Icon class="devicon-sqlite-plain-wordmark" />
                 </ul>
                 <ul className="tech-icons">
                     <Icon class="devicon-jquery-plain-wordmark" />
+                    <Icon class="devicon-tailwindcss-original-wordmark" />
                     <Icon class="fa-brands fa-bootstrap" />
                     <Icon class="devicon-bulma-plain" />
                 </ul>
