@@ -19,6 +19,7 @@ function Skills() {
                 <ul className="tech-icons">
                     <Icon class="devicon-express-original-wordmark" />
                     <Icon class="fa-brands fa-react" />
+                    <Icon class="devicon-svelte-plain-wordmark" />
                     <Icon class="devicon-nextjs-original-wordmark" />
                     <Icon class="devicon-mongodb-plain-wordmark" />
                     <Icon class="devicon-sqlite-plain-wordmark" />
