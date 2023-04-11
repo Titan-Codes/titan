@@ -5,7 +5,7 @@ function Home(){
     return (
         <section id="home" className="home">
             <div className="home-section">
-                <h1 className="home-heading"> <i class="fa-solid fa-laptop-code"></i> <span>Full-Stack Developer</span> | <span>Python Developer</span> <i class="fa-brands fa-python"></i></h1>
+                <h1 className="home-heading"><span>Full-Stack Developer</span> <i class="fa-solid fa-laptop-code"></i></h1>
                 <p className="home-text">I make websites, code stuff with python and I love to code.</p>
                 <a className="image-link" href="https://github.com/Titan-Codes" target="_blank"><img className="avatar" src={imageUrl} /></a> 
             </div>
